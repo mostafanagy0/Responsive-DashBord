@@ -24,7 +24,6 @@ abstract class AppStyles {
       color: Color(0xFF064061),
       fontSize: 16,
       fontFamily: 'Montserrat',
-      fontWeight: FontWeight.w500,
     );
   }
 

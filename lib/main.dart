@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:resposive_dashbord/views/dashbord_view.dart';
+import 'package:resposive_dashbord/views/dashBord_view.dart';
 
 void main() {
   runApp(const ReponsiveDashbord());
@@ -11,7 +11,8 @@ class ReponsiveDashbord extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: DashbordView(),
+      debugShowCheckedModeBanner: false,
+      home: DashBordView(),
     );
   }
 }
