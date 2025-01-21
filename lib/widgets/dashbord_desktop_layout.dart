@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:resposive_dashbord/widgets/all_expenses.dart';
 import 'package:resposive_dashbord/widgets/cutom_drawer.dart';
-import 'package:resposive_dashbord/widgets/quick_invoice.dart';
+import 'package:resposive_dashbord/widgets/midell_Section.dart';
 
 class DashBordDesktopLayout extends StatelessWidget {
   const DashBordDesktopLayout({super.key});
@@ -19,15 +18,7 @@ class DashBordDesktopLayout extends StatelessWidget {
         Expanded(
             flex: 2,
             child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  AllExpenses(),
-                  SizedBox(
-                    height: 24,
-                  ),
-                  QuickInvoice(),
-                ],
-              ),
+              child: AllExpensesAndQuickInvoiceSection(),
             ))
       ],
     );
