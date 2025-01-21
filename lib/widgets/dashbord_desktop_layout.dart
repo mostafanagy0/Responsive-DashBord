@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:resposive_dashbord/widgets/cutom_drawer.dart';
 import 'package:resposive_dashbord/widgets/midell_Section.dart';
-import 'package:resposive_dashbord/widgets/my_card_section.dart';
+import 'package:resposive_dashbord/widgets/my_card_and_transaction.dart';
 
 class DashBordDesktopLayout extends StatelessWidget {
   const DashBordDesktopLayout({super.key});
@@ -24,7 +24,7 @@ class DashBordDesktopLayout extends StatelessWidget {
         SizedBox(
           width: 24,
         ),
-        Expanded(child: MyCardSection())
+        Expanded(child: MyCardsAndTransctionHistorySection())
       ],
     );
   }
