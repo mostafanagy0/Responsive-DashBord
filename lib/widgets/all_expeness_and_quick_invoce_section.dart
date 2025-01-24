@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:resposive_dashbord/widgets/all_expenses.dart';
 import 'package:resposive_dashbord/widgets/quick_invoice.dart';
 
-class AllExpensesAndQuickInvoiceSection extends StatelessWidget {
-  const AllExpensesAndQuickInvoiceSection({
+class AllExpensessAndQuickInvoiceSection extends StatelessWidget {
+  const AllExpensessAndQuickInvoiceSection({
     super.key,
   });
 
